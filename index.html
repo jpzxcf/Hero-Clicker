@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clicker</title> 
+</head>
+<body>
+    <main>
+        <div>
+            <div id="bossCastle">
+                
+            </div>
+            <div id="snackbar">Moedas Ganhas: </div>
+            <H1> <strong>BEM VINDO AO HERO CLICKER!</strong></H1>
+            <div id="hud" style="display: flex; flex-direction: column; gap: 8px;">
+                <span id="vida-do-chefe"></span>
+            <div id="myProgress">
+                <div id="myBar">123</div>
+            </div>
+            </div>    
+                <span id="moedas">0</span>
+            </div>
+            <button onclick="openShop()"> Loja </button>
+            <script src="app.js" defer></script>
+        </div>
+        <div id="shop" class="shop-element">
+            <button onclick="buyItem('espada-boa')" >Espada Boa</button>   
+        </div>
+    </main> 
+</body>
+</html>
